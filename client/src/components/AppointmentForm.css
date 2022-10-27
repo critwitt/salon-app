@@ -1,0 +1,19 @@
+.scheduler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+}
+
+.selectors {
+    padding: 10px;
+}
+
+.selector-box {
+    padding: 10px;
+}
+
+.time {
+    padding: 2px;
+}

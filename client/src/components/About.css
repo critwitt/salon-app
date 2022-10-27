@@ -1,0 +1,21 @@
+.about {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.image {
+    display: flex;
+    height: 500px;
+    padding: 50px;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 50px;
+    font-size: larger;
+    font-family: monospace;
+}

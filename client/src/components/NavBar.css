@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    font-family: fantasy;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    padding: 5px;
+    padding-left: 38%;
+}
+
+.login {
+    color: white;
+    justify-content: center;
+}
+
+.info {
+    justify-content: flex-end;
+}
+
+.navbar {
+    height: 100px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+    background-image: linear-gradient(rgb(223, 115, 223), rgb(203, 203, 243));
+}
+
+.nav-button {
+    height: 50px;
+    align-items: center;
+    font-size: larger;
+    color: black;
+    font-family: fantasy;
+    cursor: pointer;
+}
