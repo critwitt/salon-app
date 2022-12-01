@@ -8,8 +8,8 @@ This app was developed in the interest of exploring using PostgreSQL in combinat
 
 You can use the following commands to run the application:
 
-`rails s` will start the backend server
-`npm start --prefix client` will start the frontend server
+*`rails s` will start the backend server
+*`npm start --prefix client` will start the frontend server
 
 ## Features
 
