@@ -4,6 +4,14 @@ This app was developed in the interest of exploring using PostgreSQL in combinat
 
 ![image](https://user-images.githubusercontent.com/104173081/205161095-eee18eef-a660-4f9c-9c91-940628245dcb.png)
 
+## Starting App
+
+You can use the following commands to run the application:
+
+`rails db:migrate`: migrate the database
+`rails s`: run the backend on http://localhost:3000
+`npm start --prefix client`: run the frontend on http://localhost:4000
+
 ## Features
 
 This app features user authentication and authorization as a user must be logged in to view products on the products page. Once a user logs in, they will be able to add products to their cart which will be featured on their page along with any upcoming appointments they may have made. A user can log back in at any time and their personal data will be saved.
