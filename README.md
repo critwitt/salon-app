@@ -1,24 +1,19 @@
-# README
+# Salon App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app was developed in the interest of exploring using PostgreSQL in combinatino with Ruby on Rails to create an effective and efficient relational database backend. It is an app for a salon wherein a user can book appointments and buy products which will be tied to the individual user's account.
 
-Things you may want to cover:
+![image](https://user-images.githubusercontent.com/104173081/205161095-eee18eef-a660-4f9c-9c91-940628245dcb.png)
 
-* Ruby version
+## Features
 
-* System dependencies
+This app features user authentication and authorization as a user must be logged in to view products on the products page. Once a user logs in, they will be able to add products to their cart which will be featured on their page along with any upcoming appointments they may have made. A user can log back in at any time and their personal data will be saved.
 
-* Configuration
+![image](https://user-images.githubusercontent.com/104173081/205161380-032c07f6-e4f1-46a5-a37b-ee7f0c1bb0f6.png)
 
-* Database creation
+Appointments can be booked using the interactive calendar as well as selecting your preferred hair stylist and time. A description can be given as to what you're looking for in your appointment.
 
-* Database initialization
+![image](https://user-images.githubusercontent.com/104173081/205161458-7f0914cd-0698-4a3c-a60f-d3ad2e4278ab.png)
 
-* How to run the test suite
+A user's personal data as it appears on their profile page.
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![image](https://user-images.githubusercontent.com/104173081/205161893-6e5acc51-4e8f-4e45-996d-dd91b9967a52.png)
