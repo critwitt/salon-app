@@ -4,6 +4,17 @@ This app was developed in the interest of exploring using PostgreSQL in combinat
 
 ![image](https://user-images.githubusercontent.com/104173081/205161095-eee18eef-a660-4f9c-9c91-940628245dcb.png)
 
+## Technologies Used
+
+- Ruby 2.7.4
+- Rails 6.1.3
+- Active Model Serializers 0.10.12
+- NodeJS (v16), and npm
+- Postgresql 1.1
+- bcrypt 3.1.7
+- React 17.0.2
+- React-Router-Dom 5.3.3
+
 ## Starting App
 
 You can use the following commands to run the application:
