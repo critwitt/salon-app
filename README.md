@@ -8,9 +8,8 @@ This app was developed in the interest of exploring using PostgreSQL in combinat
 
 You can use the following commands to run the application:
 
-`rails db:migrate`: migrate the database
-`rails s`: run the backend on http://localhost:3000
-`npm start --prefix client`: run the frontend on http://localhost:4000
+`rails s` will start the backend server
+`npm start --prefix client` will start the frontend server
 
 ## Features
 
