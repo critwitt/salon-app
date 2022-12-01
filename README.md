@@ -8,11 +8,17 @@ This app was developed in the interest of exploring using PostgreSQL in combinat
 
 This app features user authentication and authorization as a user must be logged in to view products on the products page. Once a user logs in, they will be able to add products to their cart which will be featured on their page along with any upcoming appointments they may have made. A user can log back in at any time and their personal data will be saved.
 
+## Products Page
+
 ![image](https://user-images.githubusercontent.com/104173081/205161380-032c07f6-e4f1-46a5-a37b-ee7f0c1bb0f6.png)
+
+## Appointments Page
 
 Appointments can be booked using the interactive calendar as well as selecting your preferred hair stylist and time. A description can be given as to what you're looking for in your appointment.
 
 ![image](https://user-images.githubusercontent.com/104173081/205161458-7f0914cd-0698-4a3c-a60f-d3ad2e4278ab.png)
+
+## Personal Data
 
 A user's personal data as it appears on their profile page.
 
