@@ -5,7 +5,6 @@
 }
 
 .image {
-    display: flex;
     height: 500px;
     padding: 50px;
 }
@@ -16,6 +15,12 @@
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 50px;
-    font-size: larger;
+    font-size: 17px;
     font-family: monospace;
+}
+
+.meet {
+    text-align: center;
+    font-family: monospace;
+    font-size: 17px;
 }

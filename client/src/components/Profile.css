@@ -1,3 +1,15 @@
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.my-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .card {
     display: inline-flex;
     flex-direction: column;
@@ -13,14 +25,6 @@
     box-shadow: 3px 4px #e04b52;
   }
 
-.title {
-  display: flex;
-  color: black;
-  font-size: 20px;
-  align-items: center;
-}
-
-.image {
-  height: 250px;
-  padding: 0;
-}
+  .button {
+    color: white;
+  }

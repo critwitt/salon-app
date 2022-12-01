@@ -1,9 +1,19 @@
+.salonimage {
+    height: 10px;
+}
+
+.flexible {
+    display: flex;
+    justify-content: space-evenly;
+}
+
 .scheduler {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 0%;
+    padding: 2px;
     align-items: center;
+    font-family: monospace;
 }
 
 .selectors {
@@ -16,4 +26,15 @@
 
 .time {
     padding: 2px;
+    font-family: monospace;
+}
+
+.description {
+    padding: 10px;
+    font-family: monospace;
+}
+
+.title-testing {
+    font-size: 50px;
+    font-family: monospace;
 }

@@ -9,6 +9,7 @@ import Reviews from "./components/Reviews"
 import AppointmentForm from "./components/AppointmentForm";
 import Login from "./components/Login"
 import Profile from "./components/Profile"
+import Signup from "./components/Signup"
 
 function App() {
   const [user, setUser] = useState('')
@@ -22,7 +23,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <NavBar user={user}/>
+        <NavBar setUser={setUser} user={user}/>
         <Switch>
           <Route exact path="/">
             <Home />
@@ -31,7 +32,7 @@ function App() {
             <About />
           </Route>
           <Route exact path="/services">
-            <Services />
+            <Services user={user}/>
           </Route>
           <Route exact path="/reviews">
             <Reviews />
@@ -39,11 +40,14 @@ function App() {
           <Route exact path="/login">
             <Login setUser={setUser}/>
           </Route>
-          <Route>
-            <Profile setUser={setUser} user={user} path="/profile"/>
+          <Route exact path="/profile">
+            <Profile setUser={setUser} user={user} />
           </Route>
-          <Route>
-            <AppointmentForm user={user} exact path="/appointments"/>
+          <Route exact path="/appointments">
+            <AppointmentForm user={user} />
+          </Route>
+          <Route exact path="/signup">
+            <Signup />
           </Route>
         </Switch>
       </div>

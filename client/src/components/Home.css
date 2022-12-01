@@ -6,7 +6,7 @@ h2 {
     font-size: 35px;
 }
 
-.title {
+.title-test {
     display: flex;
     justify-content: center;
     padding-bottom: 20px;
@@ -36,11 +36,38 @@ h2 {
 
 .pictures {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 200px;
+    padding: 100px;
 }
 
 .pic {
     height: 500px;
+    display: inline-flex;
+    padding: 50px;
+}
+
+.pic-1 {
+    padding-top: 20px;
+}
+
+.pic-2 {
+    padding-top: 20px;
+}
+
+.pic-3 {
+    padding-top: 20px;
+}
+
+.pic-4 {
+    padding-top: 20px;
+}
+
+.pic-5 {
+    padding-top: 20px;
+}
+
+.pic-6 {
+    padding-top: 20px;
 }

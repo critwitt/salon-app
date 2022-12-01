@@ -11,6 +11,7 @@ class AppointmentsController < ApplicationController
     end
 
     def create
+        return render json: { error: "Please login" }, status: :unauthorized unless session.include? :user_id
         appointment = Appointment.create!(appointment_params)
         render json: appointment, status: :created
     end

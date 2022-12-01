@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
   resources :appointments
-  resources :users, only: [:show, :create]
+  resources :users, only: [:index, :show, :create]
   resources :appointments, only: [:index, :show, :create, :destroy]
   resources :hair_stylists, only: [:index, :show]
-  resources :purchases, only: [:show, :create]
+  resources :purchases, only: [:index, :show, :create, :destroy]
   resources :products, only: [:index, :show]
   resources :shopping_carts, only: [:show, :create]
   # route to test your configuration

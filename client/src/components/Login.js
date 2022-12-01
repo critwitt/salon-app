@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
+import { NavLink } from 'react-router-dom'
 import {useHistory} from 'react-router-dom'
 import { Form } from './Form'
+import './Login.css'
 
 function Login ({setUser}) {
     const [formData, setFormData] = useState({
@@ -30,7 +32,7 @@ function Login ({setUser}) {
         .then(res => {
             if(res.ok){
                 res.json().then(user => {
-                    history.push(`/users/${user.id}`)
+                    history.push(`/profile`)
                     setUser(user)
                 })
             } else {
@@ -58,9 +60,10 @@ function Login ({setUser}) {
         <input type='password' name='password' value={password} onChange={handleChange} />
        
        
-        <input type='submit' value='Log in!' />
+        <input type='submit' value='Log in' />
       </Form>
       {errors? <div>{errors}</div>:null}
+      <h2 className='alternate'>Or...<NavLink exact to="/signup">Create An Account</NavLink></h2>
         </div>
     )
 }

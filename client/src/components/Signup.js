@@ -3,7 +3,7 @@ import {useHistory} from 'react-router-dom'
 
 import "./Signup.css"
 
-function Login () {
+function Signup () {
     const [createAccountFormData, setCreateAccountFormData] = useState({
         name: '',
         email: '',
@@ -42,7 +42,7 @@ function Login () {
         .then(res => {
             if(res.ok){
                 res.json().then(user => {
-                    history.push(`/users/${user.id}`)
+                    history.push(`/login`)
                 })
             }else {
                 res.json().then(json => setErrors(Object.entries(json.errors)))
@@ -56,21 +56,8 @@ function Login () {
         setCreateAccountFormData({ ...createAccountFormData, [name]: value })
       }
 
-    const handleSignInChange = (e) => {
-        const { name, value } = e.target
-        setSignInFormData({...signInFormData, [name]: value})
-    }
     return (
         <div className="login-form">
-            <h1>Sign In</h1>
-            <label>Email</label>
-            <input type='text' name='signInEmail' value={signInEmail} onChange={handleSignInChange} />
-            
-            <label>Password</label>
-            <input type='password' name='signInPassword' value={signInPassword} onChange={handleSignInChange} />
-
-            <input type='submit' value='Log in' />
-            {errors?errors.map(e => <div>{e[0]+': ' + e[1]}</div>):null}
 
             <h1>Create Account</h1>
 
@@ -83,11 +70,11 @@ function Login () {
             <label>Password</label>
             <input type='password' name='password' value={password} onChange={handleCreateAccountChange} />
             
-            <input type='submit' value='Create Account'  onClick={onCreate}/>
+            <input className='button' type='submit' value='Create Account'  onClick={onCreate}/>
             {errors?errors.map(e => <div>{e[0]+': ' + e[1]}</div>):null}
 
         </div>
     )
 }
 
-export default Login
+export default Signup
