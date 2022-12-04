@@ -1,6 +1,6 @@
 # Salon App
 
-This app was developed in the interest of exploring using PostgreSQL in combinatino with Ruby on Rails to create an effective and efficient relational database backend. It is an app for a salon wherein a user can book appointments and buy products which will be tied to the individual user's account.
+This app was developed in the interest of exploring using PostgreSQL in combination with Ruby on Rails to create an effective and efficient relational database backend. It is an app for a salon wherein a user can book appointments and buy products which will be tied to the individual user's account.
 
 ![image](https://user-images.githubusercontent.com/104173081/205161095-eee18eef-a660-4f9c-9c91-940628245dcb.png)
 
